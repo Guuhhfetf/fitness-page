@@ -239,4 +239,134 @@
                             height:75px;
                             
                         }
-                        /*change your habits ends*/              
+                        /*change your habits ends*/
+                        /*Trainings part start*/
+.container-6{
+                        width: 1340px;
+                        height: auto;
+                        background-color: black;
+                        padding-top: 1px;
+                        color:black;
+                        margin-left: 2px;
+                        
+                    }
+                    .box-8{
+                        width: 1000px;
+                        height: 880px;
+                        background-color: rgba(255, 255, 255, 0.5);
+                        margin-left: 180px;
+                        border-radius: 10px;
+                       
+                        
+                        
+                    }
+                    .calender{
+                        width: 530px;
+                        height:auto;
+                        background-color: white;
+                        box-sizing: border-box;
+                        margin-left:30px;
+                        border-radius: 15px;
+                        
+                    
+                        
+                    }
+                    .date{
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit,minmax(25px,1fr));
+                        grid-gap: 50px;
+                        box-sizing: border-box;
+                        margin-left:12px;
+                        margin-bottom: 7px;
+                        padding: 21px;
+                        
+                        
+                    }
+                    .day{
+                        font-weight:700;
+                        font-size: 30px;
+                        
+                    }
+                    .day:first-child,
+                    .number:nth-child(7n+1){
+                        color:red;
+                        font-weight: 800;
+                        
+                    }
+                    .active{
+                    background: #009688;
+                    color:#fff;
+                    font-weight: 800;
+                    cursor: pointer;
+                    }
+                    .image-7{
+                        width: 100%;
+                        height: 350px;
+                        background:url(images/exercise1.jpg);
+                        background-size: cover;
+                        padding-top: 25px;
+                        margin-top: 0px;
+                        display: block;
+                        
+                    }
+                    
+                    .fit-8{
+                    margin-top: 2px;
+                    margin-left: 150px;
+                    font-weight: 900;
+                    font-size: 30px;
+                    }
+                    .fit-9{
+                        margin-left: 140px;
+                        color:white;
+                        display: block;
+                    }
+                    .flex-9{
+                        display: flex;
+                        gap: 60px;
+                    }
+                    .fit-10{
+                        margin-left: 110px;
+                        color: white;
+                        
+                    }
+                    .information{
+                        color:black;
+                        font-size: large;
+                        
+                    }
+                    .tr-10{
+                    color:black;
+                    font-size:medium;
+                    line-height:30px ;
+                    width: 350px;
+                    height: 400px;
+                    background-color:whitesmoke;
+                    padding: 7px;
+                    border-radius: 10px;
+                    box-shadow:10px 20px 3px black ;
+                    
+                    }
+                    
+                    /*Trainings part ends*/
+                    /*BMI start*/
+                    .background{
+                        background-color: black;
+                        color: white;
+                        height: 170px;
+                        width: 1338px;
+                        margin-top:0px;
+                        padding-top: 2px;
+                        margin-left: 2px;
+                        
+                    }
+                    .text{
+                        color: rgba(255, 255, 255, 0.5);
+                        font-size: 15px;
+                        margin-top: 0px;
+                        
+                    }
+                    .left{
+                        margin-left:340px;
+                    }
+                    /*BMI ends*/              
