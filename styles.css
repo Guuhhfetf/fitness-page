@@ -13,3 +13,81 @@
                         margin-left: 2px;
                         color:white;
                     }
+                .border{
+                        width: 400px;
+                        height:40px;
+                        border: 2px solid rgba(255, 255, 255, 0.5);
+                        border-radius: 20px;
+                        margin-top: 60px;
+                        align-items: center;
+                        margin-left: 10px;
+                        margin-right: 50px;
+                        align-items: center;
+                    }
+                        
+                    .btn-6{
+                        color:white;
+                        background-color:rgb(230, 83, 60);
+                        border-style: solid;
+                        border-radius: 20px;
+                        width:100px;
+                        height:35px;
+                        float: left;
+                        margin-right:30px;
+                        margin-left: 5px;
+                        padding-top: 5px;
+                        text-decoration: none;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        font-weight: 800;
+                        
+                    }
+                    .red{
+                        margin-left: 10px;
+                        margin-bottom: 10px;
+                        align-items: center;
+                        text-align: center;
+                    }
+                    .flex-01{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                    
+                    }
+                    .inline-1{
+                        display:inline;
+                        padding: 8px;
+                    }
+                    .list-resize{
+                        margin-bottom: 6px;
+                        vertical-align: middle;
+                        list-style: none;
+                        padding: 0;
+                        margin: 0;
+                        display: flex;
+                        
+                    
+                    }
+                    .list-resize li {
+                        margin-right: 10px;
+                        text-align: center;
+                        font-weight: 700;
+                    }
+                    .fit-13{
+                        margin-top:50px;
+                        margin-left: 180px;
+                        color:rgb(230, 83, 60);
+                        font-style: italic;
+                    }
+                    .flex-13{
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 100px;
+                    }
+                    .big-13{
+                        height:600px;
+                        margin-right:130px;
+                        margin-top: 30px;
+                        margin-bottom: 100px;
+                    }                
