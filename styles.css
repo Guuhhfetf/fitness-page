@@ -41,6 +41,7 @@
                         flex-direction: column;
                         align-items: center;
                         font-weight: 800;
+                        text-align: center;
                         
                     }
                     .red{
@@ -58,6 +59,7 @@
                     .inline-1{
                         display:inline;
                         padding: 8px;
+                        text-align: center;
                     }
                     .list-resize{
                         margin-bottom: 6px;
