@@ -513,4 +513,69 @@
                           margin-top: 0px;
                           font-size: 20px;
                       }
-                      /*meet ends*/              
+                      /*meet ends*/
+                      /*footer starts*/
+.footer{
+                        width: 1340px;
+                        height: 490px;
+                        background-color:rgb(34, 34, 34);
+                        color: white;
+                        padding-top: 1px;
+                        margin-left: 2px;
+                        
+                    }
+                    .flex{
+                        display: flex;
+                        gap: 200px;
+                    }
+                    .fitness-1{
+                     font-style: italic;
+                     font-size: 75px;
+                     margin-left: 190px;
+                     color: rgb(230, 83, 60);
+                     margin-top: 70px;
+                     margin-bottom: 15px;
+                     font-weight:600;
+                     
+                     
+                    }
+                    .fitness-2{
+                    color:rgba(255, 255, 255, 0.5);
+                    margin-left: 190px;
+                    margin-top: 15px;
+                    }
+                    .grid-5{
+                        display: grid;
+                        grid-template-columns: repeat(2,260px);
+                        grid-template-rows: repeat(5,50px);
+                        margin-top: 60px;
+                        gap: 5px;
+                    
+                    }
+                    .get{
+                        color:white;
+                        font-size: 30px;
+                        
+                    }
+                    .color-5{
+                        color: rgba(255, 255, 255, 0.5);
+                        margin-top: 30px;
+                        font-size: 20px;
+                    }
+                    .line-1{
+                        width: 1000px;
+                        height: 0px;
+                        border: 2px solid  rgba(255, 255, 255, 0.5) ;
+                        margin-top: 80px;
+                        margin-left: 180px;
+                    }
+                       .all{
+                        margin-top: 20px;
+                        margin-left: 600px;
+                        font-size: 20px;
+                        color: rgba(255, 255, 255, 0.5);
+                       } 
+                        
+                    
+                    /*footer ends*/
+                                  
